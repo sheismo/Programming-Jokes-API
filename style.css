@@ -63,7 +63,7 @@ h1{
 
     .joke{
         height: 70%;
-        overflow-y:auto;
+        overflow-y:scroll;
     }
 
     h1{
