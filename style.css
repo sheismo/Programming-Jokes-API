@@ -45,20 +45,19 @@ h1{
 
 @media (max-width:768px){
     .container{
-        height:70%;
-        margin:auto
+        height:90%;
+        margin:auto;
     }
 
     .joke{
         height: 70%;
-        overflow-y: auto;
+        overflow-y: scroll;
     }
 }
 
 @media (max-width:576px){
     .container{
-        width: 100vw;
-        height: 100vh;
+        height: 100%;
     }
 
     .joke{
