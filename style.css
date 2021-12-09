@@ -18,16 +18,14 @@ body{
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-    padding:50px 20px;
+    padding:30px 20px;
     text-align: center;
-    max-width: 100%;
-    width:800px;
-    max-height:100vh;
-    height:400px;;
+    width: 50%;
+    margin: auto;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
     color:#0064a2;
     text-transform: uppercase;
 }
@@ -36,37 +34,33 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    margin:50px;
-    padding:50px;
-    height:30%;
-    width:auto;
+    font-size: 1.3rem;
+    padding: 15px 30px;
+    height: 80%;
 }
 
 @media (max-width:768px){
     .container{
-        height:90%;
+        width: 90%;
+        height: 80%;
         margin:auto;
+        position: relative;
     }
 
     .joke{
-        height: 70%;
-        overflow-y: scroll;
-    }
-}
-
-@media (max-width:576px){
-    .container{
-        height: 100%;
-    }
-
-    .joke{
-        height: 70%;
-        overflow-y:scroll;
+        padding: 10px 20px;
+        height: 80%;
+        overflow: scroll;
     }
 
     h1{
-        font-size:1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .btn{
+        position: absolute;
+        right: 50px;
+        bottom: 15px;
     }
 }
 
@@ -76,12 +70,11 @@ h1{
     border:0;
     border-radius:10px;
     box-shadow:0 5px 15px rgba(0, 0, 0, 0.4);
-    padding:14px 40px;
-    font-size:16px;
+    padding: 15px 40px;
     cursor:pointer;
 }
 
-.btn:active{
+.btn:hover{
     transform:scale(0.95);
 }
 

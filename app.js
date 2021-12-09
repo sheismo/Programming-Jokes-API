@@ -10,8 +10,8 @@ async function generateJokes(){
         "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&amount=10"
     );
     const data = await res.json();
-    console.log(data);
-    console.log(data.jokes);
+    // console.log(data);
+    // console.log(data.jokes);
     let joke = ""
     if (data.jokes[0].joke == undefined){
         joke = `${data.jokes[0].setup} <br /> ${data.jokes[0].delivery}`
